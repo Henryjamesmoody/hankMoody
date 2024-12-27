@@ -30,7 +30,7 @@
         </div>
 
         <div class="tasks flex p-10 flex-wrap gap-4">
-            <% if(files.length>0){ %>
+            <% if(files && files.length>0){ %>
             <% files.forEach((val)=>{ %>
                 <div class="task w-72 px-3 py-4 rounded bg-zinc-700">
                     <h1 class="text-white text-2xl tracking-tighter"><%= val %></h1>
